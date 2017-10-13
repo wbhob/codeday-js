@@ -1,0 +1,19 @@
+{
+  "name": "codeday-js",
+  "version": "1.0.0",
+  "description": "All the code for the JS tutorials at CodeDay Fall 2017",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbhob/codeday-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbhob/codeday-js/issues"
+  },
+  "homepage": "https://github.com/wbhob/codeday-js#readme"
+}
