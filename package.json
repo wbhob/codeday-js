@@ -4,6 +4,7 @@
   "description": "All the code for the JS tutorials at CodeDay Fall 2017",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wbhob/codeday-js/issues"
   },
-  "homepage": "https://github.com/wbhob/codeday-js#readme"
+  "homepage": "https://github.com/wbhob/codeday-js#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
