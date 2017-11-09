@@ -55,23 +55,26 @@
                 <div class="col-sm-12">
                     <h1>Contact Me</h1>
                     <h3>So, obviously, I'm a pretty cool guy. Wanna reach out?</h3>
-                    <form>
+                    <form action="/contact">
                         <div class="form-group">
                             <label>Name</label>
-                            <input type="email"
+                            <input type="text"
                                    class="form-control"
-                                   placeholder="Nikolas">
+                                   placeholder="Nikolas"
+                                   name="name">
                         </div>
                         <div class="form-group">
                             <label>Email</label>
-                            <input type="password"
+                            <input type="email"
                                    class="form-control"
-                                   placeholder="hello@codeday.org">
+                                   placeholder="hello@codeday.org"
+                                   name="email">
                         </div>
                         <div class="form-group">
                             <label>Message</label>
                             <textarea placeholder="Say what you wanna say..."
-                                      class="form-control"></textarea>
+                                      class="form-control"
+                                      name="message"></textarea>
                         </div>
                         <button type="submit"
                                 class="btn btn-primary">Submit</button>
